@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
+import CardSecurite from '../components/CardSecurite';
 
 export default function PageSecurite() {
   return (
-    <div>PageSecurite</div>
-  )
+    <CardSecurite />
+  );
 }

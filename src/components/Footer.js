@@ -6,21 +6,21 @@ import { Link } from "react-router-dom";
 export default function () {
   return (
     <FooterContainer>
-        <div className="bg-Footer container">
-            <div className="text-blue">
+        <div className="bg-footer ">
+            <div className="text-discord-blue">
                 <h2>Imagine un endroit </h2>
             </div>
-            <div className="flex ">
+            <div className="flex justify-between grid-cols-4 ">
                 {/* Produit */}
                 <ul>
-                    <li className='text-blue'>Produit</li>
+                    <li className='text-discord-blue'>Produit</li>
                     <li className='text-white'>Télécharger</li>
                     <li className='text-white'>Nitro</li>
                     <li className='text-white'>Statut</li>
                 </ul>
                 {/* Entreprise */}
                 <ul>
-                    <li className='text-blue'>Entreprise</li>
+                    <li className='text-discord-blue'>Entreprise</li>
                     <li className='text-white'>À propos</li>
                     <li className='text-white'>Emplois</li>
                     <li className='text-white'>Charte graphique</li>
@@ -28,7 +28,7 @@ export default function () {
                 </ul>
                 {/* Ressources */}
                 <ul>
-                    <li className='text-blue'>Ressources</li>
+                    <li className='text-discord-blue'>Ressources</li>
                     <li className='text-white'>Université</li>
                     <li className='text-white'>Assistance</li>
                     <li className='text-white'>Sécurité</li>
@@ -39,7 +39,7 @@ export default function () {
                 </ul>
                 {/* Chartes */}
                 <ul>
-                    <li className='text-blue'>Chartes</li>
+                    <li className='text-discord-blue'>Chartes</li>
                     <li className='text-white'>Conditions</li>
                     <li className='text-white'>Confidentialité</li>
                     <li className='text-white'>Paramètres des cookies</li>
@@ -64,15 +64,11 @@ export default function () {
 }
 const FooterContainer = styled.footer`
 
-.bg-Footer{
+.bg-footer{
     background-color: #23272a;
 }
-.text-white{
-    color : #fff;
-}
-.text-blue{
-    color: #5865f2;
-}
+
+
 .button-footer{
     background-color: #5865f2;
     /* border: 4rem; */

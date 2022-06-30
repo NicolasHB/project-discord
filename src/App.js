@@ -1,7 +1,6 @@
-import './App.css';
 import React from 'react';
 import Footer from '../../project-discord/src/components/Footer';
-import Navigation from '../../project-discord/src/components/Navigation';
+import Navigation from '../../project-discord/src/components/navigation/Navigation';
 import Home from '../../project-discord/src/pages/PageHome';
 import Login from '../../project-discord/src/pages/PageLogin';
 import Nitro from '../../project-discord/src/pages/PageNitro';
