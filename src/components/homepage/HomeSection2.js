@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HomeSection2() {
   return (
-    <div className="py-14 bg-slate-100">
+    <section className="py-14 bg-slate-100">
       <div className="columns-2 p-5 m-10  ">
         <h2 className="font-bold text-5xl uppercase p-8">
           Là où il est facile de passer du temps ensemble
@@ -14,6 +14,6 @@ export default function HomeSection2() {
         </p>
         <img src="voice-connect.svg" alt="tchat-voice-connect" />
       </div>
-    </div>
+    </section>
   );
 }

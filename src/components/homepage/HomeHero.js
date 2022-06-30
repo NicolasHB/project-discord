@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export default function HomeHero() {
   return (
-    <Div className=" bg-discord-blue h-screenj py-32 flex flex-col justify-center items-center">
+    <section className=" bg-discord-blue h-screenj py-32 flex flex-col justify-center items-center">
       <h1 className=" uppercase text-center text-6xl font-black text-white py-10">
         Imagine <br /> un endroit...
       </h1>
@@ -25,20 +25,7 @@ export default function HomeHero() {
         </a>
       </div>
       <div class="bg-[url('../public/fond-home.svg')] bg-cover h-20 w-20 z-0 "></div>
-      <div className="picture" >
-        {/* <img className='fond-picture' src="fond-home.svg" alt="" /> */}
-      </div>
-    </Div>
+      
+    </section>
   );
 }
-const Div = styled.div`
- .picture{
-   position:relative;
-   top: 0;
-   left: 0;
-   z-index: 0;
- }
- .fond-picture{
-   position: absolute;
- }
-`;

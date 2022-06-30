@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HomeSection1() {
   return (
-      <div className="py-12 ">
+      <section className="py-12 ">
         <div className="columns-2 p-5 m-10">
           <img className="" src="Home-bloc-1.svg" alt="create space" />
           <div className=" text-left max-w-5xl ">
@@ -17,6 +17,6 @@ export default function HomeSection1() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
   );
 }

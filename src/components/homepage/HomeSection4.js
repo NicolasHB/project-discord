@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HomeSection4() {
   return (
-    <div className="bg-slate-100 py-10 p-60">
+    <section className="bg-slate-100 py-10 p-60">
       <div className="">
         <h2 className="font-bold text-5xl text-center p-10 ">
           UNE TECHNOLOGIE FIABLE POUR GARDER LE LIEN
@@ -15,6 +15,6 @@ export default function HomeSection4() {
         </p>
       </div>
       <img src="call.svg" alt="call desktop and mobile" />
-    </div>
+    </section>
   );
 }

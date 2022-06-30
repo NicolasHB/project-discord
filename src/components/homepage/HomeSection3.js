@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HomeSection3() {
   return (
-    <div className="py-14">
+    <section className="py-14">
       <div className=" columns-2 p-5 m-10">
         <img src="communauté.svg" alt="Communautary-space" />
         <h2 className="font-bold text-5xl uppercase p-8">
@@ -14,6 +14,6 @@ export default function HomeSection3() {
           spéciaux aux membres, crée des salons privés, et plus encore.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
